@@ -2,9 +2,9 @@ package com.gitee.taven.myselfdemo.controller;
 
 import com.gitee.taven.myselfdemo.service.AccountOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import javax.transaction.Transactional;
 
 /**
  * @ClassName: AccountOrderController

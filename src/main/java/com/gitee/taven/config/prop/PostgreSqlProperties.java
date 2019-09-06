@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Data
 @Component
 @ConfigurationProperties(prefix="spring.datasource.druid.system-db")
-public class SystemProperties {
+public class PostgreSqlProperties {
 
 	private String url;
 	

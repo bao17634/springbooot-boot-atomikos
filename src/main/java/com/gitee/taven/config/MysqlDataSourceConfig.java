@@ -4,31 +4,30 @@ import javax.sql.DataSource;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
-import org.mybatis.spring.annotation.MapperScan;
+import tk.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.jta.atomikos.AtomikosDataSourceBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
-import com.gitee.taven.config.prop.BusinessProperties;
-import com.gitee.taven.config.prop.SystemProperties;
+import com.gitee.taven.config.prop.PostgreSqlProperties;
 import com.gitee.taven.utils.PojoUtil;
 
 @Configuration
-@MapperScan(basePackages = SystemDataSourceConfig.PACKAGE, sqlSessionFactoryRef = "systemSqlSessionFactory")
-public class SystemDataSourceConfig {
+@MapperScan(basePackages = MysqlDataSourceConfig.PACKAGE, sqlSessionFactoryRef = "systemSqlSessionFactory")
+public class MysqlDataSourceConfig {
 
-	static final String PACKAGE = "com.gitee.taven.testdemo.mapper.system";
+	static final String PACKAGE = "com.gitee.taven.myselfdemo.mapper.mysql_mapper";
 
 	@Autowired
-	private SystemProperties systemProperties;
+	private PostgreSqlProperties postgreSqlProperties;
 
 	@Bean(name = "systemDataSource")
 	@Primary
 	public DataSource systemDataSource() {
 		AtomikosDataSourceBean ds = new AtomikosDataSourceBean();
-		ds.setXaProperties(PojoUtil.obj2Properties(systemProperties));
+		ds.setXaProperties(PojoUtil.obj2Properties(postgreSqlProperties));
 		ds.setXaDataSourceClassName("com.alibaba.druid.pool.xa.DruidXADataSource");
 		ds.setUniqueResourceName("systemDataSource");
 		ds.setPoolSize(5);

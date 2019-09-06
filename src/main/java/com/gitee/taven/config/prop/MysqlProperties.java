@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Data
 @Component
 @ConfigurationProperties(prefix="spring.datasource.druid.business-db")
-public class BusinessProperties {
+public class MysqlProperties {
 
 	private String url;
 	

@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class OrderAccountController {
 
-    @Autowired
-    private UserService userService;
+//    @Autowired
+//    private UserService userService;
     @RequestMapping(value = "test")
     public void contextLoads() {
-        userService.testJTA();
+//        userService.testJTA();
     }
 
 }
