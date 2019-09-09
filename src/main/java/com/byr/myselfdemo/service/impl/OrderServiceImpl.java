@@ -32,7 +32,7 @@ public class OrderServiceImpl implements OrderService {
     TssHouseService tssHouseService;
 
     @Override
-    @Transactional(isolation = Isolation.READ_COMMITTED, rollbackFor = RuntimeException.class)
+    @Transactional( rollbackFor = RuntimeException.class)
     public Integer addOrder(OrderDTO orderDTO) throws Exception{
      try {
          //网order表插一条数据
@@ -57,6 +57,7 @@ public class OrderServiceImpl implements OrderService {
          } else {
              log.info("Saas库存增加成功");
          }
+//         int  i=10/0;
          return orderCount + tssConut + saasCuunt;
      }catch (Exception e){
          throw new RuntimeException(e);

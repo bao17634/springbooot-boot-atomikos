@@ -27,7 +27,7 @@ public class TssHouseServiceImpl implements TssHouseService {
     TssHouseMapper tssHouseMapper;
 
     @Override
-    @Transactional(rollbackFor = RuntimeException.class, isolation = Isolation.READ_COMMITTED)
+    @Transactional(rollbackFor = RuntimeException.class)
     public Integer reduceTssHouse(OrderDTO orderDTO) {
         TssHouseExample example = new TssHouseExample();
         TssHouse tssHouse=new TssHouse();
@@ -41,7 +41,8 @@ public class TssHouseServiceImpl implements TssHouseService {
             throw new RuntimeException("此商品在Tss库存不足");
         }
         tssHouse.setNumber(listTss.get(0).getNumber() - orderDTO.getOrder().getOrderCount());
-        Integer a = tssHouseMapper.updateByExample(tssHouse, example);
+        Integer a = tssHouseMapper.updateByExampleSelective(tssHouse, example);
+//        int i=10/0;
         return a;
     }
 }

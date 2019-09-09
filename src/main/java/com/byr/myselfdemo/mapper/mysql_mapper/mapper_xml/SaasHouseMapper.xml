@@ -228,7 +228,7 @@
       This element was generated on Fri Sep 06 15:29:41 CST 2019.
     -->
     update saas_house
-    set id = #{record.id,jdbcType=INTEGER},
+    set
       number = #{record.number,jdbcType=INTEGER},
       commodity_code = #{record.commodityCode,jdbcType=VARCHAR},
       commodity_name = #{record.commodityName,jdbcType=VARCHAR}

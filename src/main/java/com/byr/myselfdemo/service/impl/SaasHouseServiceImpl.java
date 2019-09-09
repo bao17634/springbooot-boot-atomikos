@@ -25,7 +25,7 @@ public class SaasHouseServiceImpl implements SaasHouseService {
     SaasHouseMapper saasHouseMapper;
 
     @Override
-    @Transactional(isolation = Isolation.READ_COMMITTED, rollbackFor = RuntimeException.class)
+    @Transactional(rollbackFor = RuntimeException.class)
     public Integer addSaasHouse(OrderDTO orderDTO) {
         Integer saasCunt = null;
         SaasHouseExample example = new SaasHouseExample();
@@ -40,7 +40,7 @@ public class SaasHouseServiceImpl implements SaasHouseService {
             saasCunt = saasHouseMapper.insert(saasHouse);
         } else {
             saasHouse.setNumber(orderDTO.getOrder().getOrderCount() + listSaas.get(0).getNumber());
-            saasCunt = saasHouseMapper.updateByExample(saasHouse, example);
+            saasCunt = saasHouseMapper.updateByExampleSelective(saasHouse, example);
         }
         return saasCunt;
     }

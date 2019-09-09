@@ -27,7 +27,7 @@ public class OrderController {
     private OrderService service;
 
     @RequestMapping(value = "/addOrder")
-    public Integer addOrder() {
+    public Integer addOrder() throws Exception {
         UUID uuid = UUID.randomUUID();
         String code = uuid.toString().replace("-", "");
         OrderDTO orderDTO = new OrderDTO();
@@ -37,7 +37,10 @@ public class OrderController {
         order.setCommodityCode(1);
         order.setOrderCount(10);
         orderDTO.setOrder(order);
-        Integer count = service.addOrder(orderDTO);
+        Integer count=null;
+        for(int i=0 ;i< 1;i++){
+            count= service.addOrder(orderDTO);
+        }
         if (count != 3) {
             log.error("订单添加失败！");
             throw new RuntimeException("商品添加失败");
