@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.math.BigDecimal;
+import java.util.Date;
 import java.util.UUID;
 
 /**
@@ -32,9 +33,9 @@ public class OrderController {
         String code = uuid.toString().replace("-", "");
         OrderDTO orderDTO = new OrderDTO();
         Order order = new Order();
-        order.setOrderCode("fdsf212sd12d1g1gd");
-        order.setOrderName("手机");
-        order.setCommodityCode(1);
+        order.setOrderCode(code.substring(4)+new Date().toString());
+        order.setOrderName("电脑");
+        order.setCommodityCode("bf5f48fcfa9d43bca391e9f66fd8c9ba");
         order.setOrderCount(10);
         orderDTO.setOrder(order);
         Integer count=null;

@@ -26,20 +26,20 @@ public class SaasHouseServiceImpl implements SaasHouseService {
 
     @Override
     @Transactional(rollbackFor = RuntimeException.class)
-    public Integer addSaasHouse(OrderDTO orderDTO) {
+    public synchronized Integer addSaasHouse(OrderDTO orderDTO) {
         Integer saasCunt = null;
         SaasHouseExample example = new SaasHouseExample();
-        SaasHouse saasHouse=new SaasHouse();
-        example.createCriteria().andCommodityCodeEqualTo(orderDTO.getOrder().getOrderCode());
-        List<SaasHouse> listSaas = saasHouseMapper.selectByExample(example);
+        SaasHouse saasHouse = new SaasHouse();
+        example.createCriteria().andCommodityCodeEqualTo(orderDTO.getOrder().getCommodityCode());
+        Integer number = saasHouseMapper.selectNumber(orderDTO.getOrder().getCommodityCode());
         //如果Tss仓库没有这个商品的数据则添加，否则就修改
-        if (listSaas == null || listSaas.size() == 0) {
+        if (number == null) {
             saasHouse.setCommodityCode(orderDTO.getOrder().getOrderCode());
             saasHouse.setCommodityName(orderDTO.getOrder().getOrderName());
             saasHouse.setNumber(orderDTO.getOrder().getOrderCount());
             saasCunt = saasHouseMapper.insert(saasHouse);
         } else {
-            saasHouse.setNumber(orderDTO.getOrder().getOrderCount() + listSaas.get(0).getNumber());
+            saasHouse.setNumber(orderDTO.getOrder().getOrderCount() + number);
             saasCunt = saasHouseMapper.updateByExampleSelective(saasHouse, example);
         }
         return saasCunt;

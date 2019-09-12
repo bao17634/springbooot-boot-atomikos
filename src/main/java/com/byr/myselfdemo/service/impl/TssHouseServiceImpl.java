@@ -31,16 +31,16 @@ public class TssHouseServiceImpl implements TssHouseService {
     public Integer reduceTssHouse(OrderDTO orderDTO) {
         TssHouseExample example = new TssHouseExample();
         TssHouse tssHouse=new TssHouse();
-        example.createCriteria().andCommodityCodeEqualTo(orderDTO.getOrder().getOrderCode());
-        List<TssHouse> listTss = tssHouseMapper.selectByExample(example);
-        if (listTss == null || listTss.size() < 1) {
+        example.createCriteria().andCommodityCodeEqualTo(orderDTO.getOrder().getCommodityCode());
+        Integer conut = tssHouseMapper.selectNumber(orderDTO.getOrder().getCommodityCode());
+        if (conut == null ) {
             log.error("TSS没有此商品的库存");
             throw new RuntimeException("TSS没有此商品的库存");
-        }else if (listTss.get(0).getNumber() < orderDTO.getOrder().getOrderCount()) {
+        }else if (conut < orderDTO.getOrder().getOrderCount()) {
             log.error("此商品在Tss库存不足");
             throw new RuntimeException("此商品在Tss库存不足");
         }
-        tssHouse.setNumber(listTss.get(0).getNumber() - orderDTO.getOrder().getOrderCount());
+        tssHouse.setNumber(conut - orderDTO.getOrder().getOrderCount());
         Integer a = tssHouseMapper.updateByExampleSelective(tssHouse, example);
 //        int i=10/0;
         return a;
