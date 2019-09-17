@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8e080f1-8307-4336-b195-79cc70d11e52" name="Default" comment="" />
+    <list default="true" id="e8e080f1-8307-4336-b195-79cc70d11e52" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/byr/config/PostgreSqlDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/byr/config/PostgreSqlDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/byr/config/prop/TransactionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/byr/config/prop/TransactionConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/byr/config/PostgreSqlDataSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/byr/config/PostgreSqlDataSourceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/byr/myselfdemo/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/byr/myselfdemo/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmlog43.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-logs/tmlog.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-logs/tmlog67.log" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,13 +24,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AccountOrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/controller/AccountOrderController.java">
+      <file leaf-file-name="MysqlDataSourceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/config/MysqlDataSourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="117">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,52 +52,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountOrderServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/impl/AccountOrderServiceImpl.java">
+      <file leaf-file-name="PostgreSqlProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/config/prop/PostgreSqlProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="468">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountOrderDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/dao/impl/AccountOrderDaoImpl.java">
+      <file leaf-file-name="MysqlProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/config/prop/MysqlProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="156">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-local.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-local.properties">
+      <file leaf-file-name="PostgreSqlDataSourceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/config/PostgreSqlDataSourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/config/prop/BusinessProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="364">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,20 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SystemProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/config/prop/SystemProperties.java">
+      <file leaf-file-name="TransactionConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/config/prop/TransactionConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessDataSourceConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/config/BusinessDataSourceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="520">
+              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,32 +94,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SystemDataSourceConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/config/SystemDataSourceConfig.java">
+      <file leaf-file-name="JtaTransactionManager.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.9.RELEASE/spring-tx-5.0.9.RELEASE.jar!/org/springframework/transaction/jta/JtaTransactionManager.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="494">
+              <caret line="54" column="40" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PojoUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/utils/PojoUtil.java">
+      <file leaf-file-name="UserTransactionManager.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/atomikos/transactions-jta/4.0.6/transactions-jta-4.0.6.jar!/com/atomikos/icatch/jta/UserTransactionManager.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="39" column="54" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="54" />
+            <state relative-caret-position="104">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <file leaf-file-name="TransactionManager.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar!/javax/transaction/TransactionManager.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="104">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTransaction.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar!/javax/transaction/UserTransaction.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -140,14 +142,48 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>com.alibaba</find>
-      <find>org.mybatis.generator</find>
-      <find>javaModelGenerator</find>
-      <find>mybatis</find>
+      <find>com.alibaba.druid.pool.xa.DruidXADataSource</find>
+      <find>parent</find>
+      <find>org.mybatis.generato</find>
+      <find>targetProject</find>
+      <find>systemSqlSessionFactory</find>
+      <find>system-db</find>
+      <find>com.gitee.taven.testdemo.mapper.system.UsersMapper</find>
+      <find>supper</find>
+      <find>EqualTo</find>
+      <find>Transactional</find>
+      <find>tk.mybatis</find>
+      <find>selectByExample</find>
+      <find>jtaTransactionManager</find>
+      <find>allowCustomIsolationLevels</find>
+      <find>namespace</find>
+      <find>ins</find>
+      <find>BaseResultMap</find>
+      <find>com.byr.myselfdemo.mapper.postgresql_mapper</find>
+      <find>DataSourceXAResourceRecoveryHelper</find>
+      <find>TransactionManager</find>
+      <find>xaDataSourceClassName</find>
+      <find>DruidXADataSource</find>
+      <find>XAResource</find>
+      <find>transaction-logs</find>
+      <find>tmlog</find>
+      <find>initializeProperties</find>
+      <find>key</find>
+      <find>JtaTransactionManager</find>
+      <find>userTransaction</find>
+      <find>transactionManager</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -159,39 +195,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/generator-postgresql.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gitee/taven/AppTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/controller/OrderAcountController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/entity/business/UserInformations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/controller/OrderAccountController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/config/GenerateMybatisCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/config/generator/GenerateMybatisCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/utils/MyMapper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/generator-mysql.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/PAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/config/MysqlDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/controller/CrudInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/Commodity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/House.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/HouseVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/OrderVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/testdemo/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/testdemo/controller/CrudInfoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/impl/CrudInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/dao/AccountOrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/dao/impl/AccountOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/mapper/CommodityExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/AccountOrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/dao/AccountOrderDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/PAccountVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/CAccountVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/dao/impl/AccountOrderDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/CrudInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/impl/CrudInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/impl/AccountOrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/controller/AccountOrderController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/config/BusinessDataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/config/prop/BusinessProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/config/prop/SystemProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/utils/PojoUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/mapper/postgresql_mapper/CommodityMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/mapper/postgresql_mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/mapper/postgresql_mapper/TssHouseMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/impl/SaaHouseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/mapper/mysql_mapper/SaasHouseMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/dto/OrderDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/TssHouseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/impl/TssHouseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/mapper/mysql_mapper/mapper_xml/HouseMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/mapper/postgresql_mapper/mapper_xml/CommodityMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/mapper/postgresql_mapper/mapper_xml/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/mapper/postgresql_mapper/mapper_xml/TssHouseMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gitee/byr/myselfdemo/mapper/postgresql_mapper/CommodityMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/dto/PartInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/TssHouseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/SaaHouseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/SaasHouseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/dto/OrderDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/config/prop/MysqlProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/config/prop/PostgreSqlProperties.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/postgresql_mapper/CommodityMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/postgresql_mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/postgresql_mapper/mapper_xml/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/config/MysqlDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/config/prop/TransactionCongif.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/entity/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/mysql_mapper/SaasHouseMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/mysql_mapper/mapper_xml/SaasHouseMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/impl/SaasHouseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/impl/TssHouseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/postgresql_mapper/TssHouseMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/postgresql_mapper/mapper_xml/TssHouseMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/config/PostgreSqlDataSourceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-local.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/transactions.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byr/config/prop/TransactionConfig.java" />
       </list>
     </option>
   </component>
@@ -208,6 +262,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spring-atomikos" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-atomikos" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -215,18 +274,22 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,7 +330,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+              <item name="byr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
@@ -276,18 +339,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-atomikos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
+              <item name="byr" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -297,20 +349,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-atomikos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
+              <item name="byr" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="prop" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -321,8 +360,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
+              <item name="byr" type="462c0819:PsiDirectoryNode" />
               <item name="myselfdemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,109 +370,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
+              <item name="byr" type="462c0819:PsiDirectoryNode" />
               <item name="myselfdemo" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-atomikos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
-              <item name="myselfdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-atomikos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
-              <item name="myselfdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-atomikos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
-              <item name="myselfdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-atomikos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
-              <item name="myselfdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-atomikos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
-              <item name="myselfdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-atomikos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gitee" type="462c0819:PsiDirectoryNode" />
-              <item name="taven" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-atomikos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-atomikos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-atomikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-atomikos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,16 +388,34 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mybatis-generator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../store_managesys" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gitee.taven.myselfdemo.service.impl" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yanrong\mySelfObject\taven-springboot-learning\spring-atomikos\src\main\java\com\byr\myselfdemo\mapper\postgresql_mapper\mapper_xml" />
+      <recent name="C:\Users\yanrong\mySelfObject\taven-springboot-learning\spring-atomikos\src\main\java\com\byr\myselfdemo" />
+      <recent name="C:\Users\yanrong\mySelfObject\taven-springboot-learning\spring-atomikos\src\main\java\com\gitee\taven\myselfdemo\mapper" />
+      <recent name="C:\Users\yanrong\mySelfObject\taven-springboot-learning\spring-atomikos\src\main\java\com\gitee\taven\myselfdemo\entity" />
+      <recent name="C:\Users\yanrong\mySelfObject\taven-springboot-learning\spring-atomikos\src\main\resources\sql" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.byr.myselfdemo.mapper.postgresql_mapper" />
+      <recent name="com.byr.myselfdemo.entity" />
       <recent name="com.gitee.taven.myselfdemo.dao.impl" />
       <recent name="com.gitee.taven.myselfdemo.dao" />
       <recent name="com.gitee.taven.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yanrong\mySelfObject\taven-springboot-learning\spring-atomikos\src\main\resources\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -487,14 +449,14 @@
       <module name="spring-atomikos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gitee.taven.*" />
+          <option name="PATTERN" value="com.byr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gitee.taven" />
-      <option name="MAIN_CLASS_NAME" value="com.gitee.taven.AppTests" />
+      <option name="PACKAGE_NAME" value="com.gitee.byr" />
+      <option name="MAIN_CLASS_NAME" value="com.byr.AppTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -510,14 +472,14 @@
       <module name="spring-atomikos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gitee.taven.*" />
+          <option name="PATTERN" value="com.byr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gitee.taven" />
-      <option name="MAIN_CLASS_NAME" value="com.gitee.taven.AppTests" />
+      <option name="PACKAGE_NAME" value="com.gitee.byr" />
+      <option name="MAIN_CLASS_NAME" value="com.byr.AppTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -545,9 +507,34 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="mybatis Generator " type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-atomikos" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gitee.taven.App" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.byr.App" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -572,16 +559,19 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Maven.mybatis Generator " />
       <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Application.GenerateMybatisCode" />
       <item itemvalue="JUnit.AppTests" />
       <item itemvalue="JUnit.AppTests.contextLoads" />
-      <item itemvalue="Application.GenerateMybatisCode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenerateMybatisCode" />
-        <item itemvalue="JUnit.AppTests" />
         <item itemvalue="JUnit.AppTests.contextLoads" />
+        <item itemvalue="JUnit.AppTests" />
+        <item itemvalue="Application.GenerateMybatisCode" />
+        <item itemvalue="JUnit.AppTests.contextLoads" />
+        <item itemvalue="JUnit.AppTests" />
       </list>
     </recent_temporary>
   </component>
@@ -599,7 +589,22 @@
       <workItem from="1567567620449" duration="1088000" />
       <workItem from="1567568827260" duration="2221000" />
       <workItem from="1567575456675" duration="6719000" />
-      <workItem from="1567582203639" duration="8217000" />
+      <workItem from="1567582203639" duration="11631000" />
+      <workItem from="1567645806659" duration="29561000" />
+      <workItem from="1567731879400" duration="12356000" />
+      <workItem from="1567752620201" duration="120000" />
+      <workItem from="1567752780206" duration="290000" />
+      <workItem from="1567753944590" duration="1165000" />
+      <workItem from="1567756099758" duration="99000" />
+      <workItem from="1567756232596" duration="6552000" />
+      <workItem from="1567763389682" duration="1528000" />
+      <workItem from="1567991391018" duration="25148000" />
+      <workItem from="1568077602372" duration="1560000" />
+      <workItem from="1568093057308" duration="2608000" />
+      <workItem from="1568163824613" duration="5265000" />
+      <workItem from="1568250149822" duration="12393000" />
+      <workItem from="1568595627148" duration="10687000" />
+      <workItem from="1568682416687" duration="1252000" />
     </task>
     <servers />
   </component>
@@ -636,40 +641,40 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23149000" />
+    <option name="totallyTimeSpent" value="137038000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.58752733" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42374727" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23400854" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.52398723" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37513632" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.16189428" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.013129103" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3278867" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33006537" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2753304" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3278867" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.37077427" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,404 +685,363 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="44" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="154">
+          <caret line="329" selection-start-line="329" selection-end-line="329" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/testdemo/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gitee/taven/AppTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generator-postgresql.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="155" selection-start-line="5" selection-start-column="155" selection-end-line="5" selection-end-column="155" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.2.5/postgresql-42.2.5.jar!/org/postgresql/Driver.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/atomikos/transactions-jta/4.0.6/transactions-jta-4.0.6.jar!/com/atomikos/icatch/jta/UserTransactionImp.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generator-mysql.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.9.RELEASE/spring-tx-5.0.9.RELEASE.jar!/org/springframework/transaction/annotation/Isolation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/postgresql_mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar!/org/apache/catalina/core/StandardHostValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar!/org/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE.jar!/org/springframework/boot/jta/narayana/DataSourceXAResourceRecoveryHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="127" selection-start-line="3" selection-start-column="127" selection-end-line="3" selection-end-column="127" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/java/jdk-11.0.4/lib/src.zip!/java.sql/javax/sql/XADataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/atomikos/transactions-jdbc/4.0.6/transactions-jdbc-4.0.6.jar!/com/atomikos/jdbc/AbstractDataSourceBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/java/jdk-11.0.4/lib/src.zip!/java.sql/javax/sql/CommonDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/java/jdk-11.0.4/lib/src.zip!/java.sql/java/sql/Wrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/java/jdk-11.0.4/lib/src.zip!/java.sql/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="78" column="59" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/atomikos/transactions-jdbc/4.0.6/transactions-jdbc-4.0.6.jar!/com/atomikos/jdbc/AtomikosDataSourceBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/java/jdk-11.0.4/lib/src.zip!/java.sql/javax/sql/XAConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/java/jdk-11.0.4/lib/src.zip!/java.transaction.xa/javax/transaction/xa/XAResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="962">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.0/druid-1.1.0.jar!/com/alibaba/druid/pool/xa/DruidXADataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/entity/TssHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/dto/OrderDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="175" column="17" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/SaasHouseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/TssHouseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/impl/SaasHouseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/impl/TssHouseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/mysql_mapper/SaasHouseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/mysql_mapper/mapper_xml/SaasHouseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5174">
+          <caret line="199" column="4" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/postgresql_mapper/mapper_xml/TssHouseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="199" column="11" selection-start-line="199" selection-start-column="11" selection-end-line="199" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/mapper/postgresql_mapper/TssHouseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar!/org/springframework/boot/autoconfigure/transaction/jta/JtaProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE.jar!/org/springframework/boot/jta/atomikos/AtomikosProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/transactions.properties" />
+    <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/application-local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/atomikos/transactions/4.0.6/transactions-4.0.6.jar!/transactions-defaults.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/config/prop/SystemProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/config/BusinessDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        <state relative-caret-position="676">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="234">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.2.5/postgresql-42.2.5.jar!/org/postgresql/Driver.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="234">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar!/org/springframework/boot/autoconfigure/transaction/jta/AtomikosJtaConfiguration.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/service/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        <state relative-caret-position="598">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE.jar!/org/springframework/boot/context/config/ConfigFileApplicationListener.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/utils/PojoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        <state relative-caret-position="104">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gitee/taven/AppTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="130">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/App.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="356">
+          <caret line="136" column="28" lean-forward="true" selection-end-line="153" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.2.5/postgresql-42.2.5.jar!/org/postgresql/core/v3/QueryExecutorImpl.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/myselfdemo/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="1559" selection-start-line="1559" selection-end-line="1559" />
+        <state relative-caret-position="728">
+          <caret line="41" column="64" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/testdemo/entity/business/UserInformations.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/config/PostgreSqlDataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="364">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/testdemo/mapper/business/UserInformationsMapper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar!/javax/transaction/UserTransaction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state relative-caret-position="52">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/testdemo/mapper/business/UserInformationsMapper.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar!/javax/transaction/TransactionManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/testdemo/entity/system/UsersExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/testdemo/mapper/system/UsersMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2136">
-          <caret line="89" column="85" selection-start-line="89" selection-start-column="85" selection-end-line="89" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="35" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generator-postgresql.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/testdemo/mapper/system/UsersMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="104">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/utils/MyMapper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/atomikos/transactions-jta/4.0.6/transactions-jta-4.0.6.jar!/com/atomikos/icatch/jta/UserTransactionManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="104">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.9.RELEASE/spring-tx-5.0.9.RELEASE.jar!/org/springframework/transaction/jta/JtaTransactionManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/config/prop/PostgreSqlProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/config/prop/MysqlProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE.jar!/org/springframework/boot/jta/atomikos/AtomikosDataSourceBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/config/MysqlDataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-atomikos.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byr/config/prop/TransactionConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="12" selection-end-line="42" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/config/generator/GenerateMybatisCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="52" column="67" lean-forward="true" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#1678#1686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generator-mysql.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/c.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/testdemo/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/testdemo/controller/OrderAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/controller/CrudInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/impl/CrudInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/HouseVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/dao/AccountOrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/PAccountVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/OrderVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/entity/CAccountVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/AccountOrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/CrudInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/service/impl/AccountOrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/dao/impl/AccountOrderDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/myselfdemo/controller/AccountOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/config/prop/BusinessProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/utils/PojoUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="39" column="54" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/config/BusinessDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/config/prop/SystemProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gitee/taven/config/SystemDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="80" />
+        <state relative-caret-position="520">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
