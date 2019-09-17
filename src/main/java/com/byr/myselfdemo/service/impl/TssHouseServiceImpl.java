@@ -42,7 +42,6 @@ public class TssHouseServiceImpl implements TssHouseService {
         }
         tssHouse.setNumber(conut - orderDTO.getOrder().getOrderCount());
         Integer a = tssHouseMapper.updateByExampleSelective(tssHouse, example);
-//        int i=10/0;
         return a;
     }
 }

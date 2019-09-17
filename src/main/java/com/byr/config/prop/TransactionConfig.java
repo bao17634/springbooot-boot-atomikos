@@ -21,7 +21,6 @@ import javax.transaction.UserTransaction;
 
 @Configuration
 public class TransactionConfig {
-
     /**
      * 配置spring的JtaTransactionManager，底层委派给atomikos进行处理
      * @return

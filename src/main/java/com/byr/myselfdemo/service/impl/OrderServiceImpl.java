@@ -57,7 +57,6 @@ public class OrderServiceImpl implements OrderService {
          } else {
              log.info("Saas库存增加成功");
          }
-//         int  i=10/0;
          return orderCount + tssConut + saasCuunt;
      }catch (Exception e){
          throw new RuntimeException(e);

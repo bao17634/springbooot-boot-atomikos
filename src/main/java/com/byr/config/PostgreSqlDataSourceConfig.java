@@ -40,6 +40,7 @@ public class PostgreSqlDataSourceConfig {
 	@Bean
 	public SqlSessionFactory businessSqlSessionFactory() throws Exception {
 		SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
+		//这里必须制定xml文件的位置，不然mapper会找不到方法
         sqlSessionFactoryBean.setMapperLocations(new PathMatchingResourcePatternResolver().
                 getResources("classpath*:com/byr/myselfdemo/mapper/postgresql_mapper/mapper_xml/*.xml"));
 		sqlSessionFactoryBean.setDataSource(businessDataSource());
