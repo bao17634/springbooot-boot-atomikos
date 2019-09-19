@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 @Data
 @Component
-@ConfigurationProperties(prefix="spring.datasource.druid.system-db")
+@ConfigurationProperties(prefix="spring.datasource.druid.postgresql-db")
 public class PostgreSqlProperties {
 
 	private String url;
@@ -18,7 +18,6 @@ public class PostgreSqlProperties {
 	
 	private Integer minIdle;
 //	private boolean allowCustomIsolationLevels;
-	
 	private Integer maxActive;
 	
 	private Integer maxWait;

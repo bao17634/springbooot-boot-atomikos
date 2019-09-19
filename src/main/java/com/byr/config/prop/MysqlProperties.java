@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 @Data
 @Component
-@ConfigurationProperties(prefix="spring.datasource.druid.business-db")
+@ConfigurationProperties(prefix="spring.datasource.druid.mysql-db")
 public class MysqlProperties {
 
 	private String url;
@@ -18,6 +18,7 @@ public class MysqlProperties {
 	
 	private Integer minIdle;
 //	private boolean allowCustomIsolationLevels;
+	
 	private Integer maxActive;
 	
 	private Integer maxWait;

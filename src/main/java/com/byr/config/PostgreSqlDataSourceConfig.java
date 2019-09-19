@@ -10,7 +10,7 @@ import org.springframework.boot.jta.atomikos.AtomikosDataSourceBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.byr.config.prop.MysqlProperties;
+import com.byr.config.prop.PostgreSqlProperties;
 import com.byr.utils.PojoUtil;
 
 @Configuration
@@ -19,7 +19,7 @@ public class PostgreSqlDataSourceConfig {
 
 	static final String PACKAGE = "com.byr.myselfdemo.mapper.postgresql_mapper";
 	@Autowired
-	private MysqlProperties mysqlProperties;
+	private PostgreSqlProperties postgreSqlProperties;
 
     /**
      * 配置数据源
@@ -29,7 +29,7 @@ public class PostgreSqlDataSourceConfig {
 	@Bean(name = "businessDataSource")
     public DataSource businessDataSource() {
         AtomikosDataSourceBean ds = new AtomikosDataSourceBean();
-        ds.setXaProperties(PojoUtil.obj2Properties(mysqlProperties));
+        ds.setXaProperties(PojoUtil.obj2Properties(postgreSqlProperties));
         ds.setXaDataSourceClassName("com.alibaba.druid.pool.xa.DruidXADataSource");
         ds.setUniqueResourceName("businessProperties");
         ds.setPoolSize(5);

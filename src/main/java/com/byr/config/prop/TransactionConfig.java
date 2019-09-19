@@ -39,6 +39,7 @@ public class TransactionConfig {
     /**
      * 配置atomikos事务管理
      * TransactionManager 定义有关事务的开始、提交、撤回等操作
+     * atomikos的类UserTransactionManage实现Spring的TransactionManager的接口
      * @return
      * @throws Throwable
      */
@@ -53,7 +54,7 @@ public class TransactionConfig {
         }
     }
     /**
-     * 配置atomikos事务管理
+     * 配置atomikos事务管理,atomikos的类UserTransactionImp实现spring的UserTransaction接口
      * @return
      * @throws Throwable
      */

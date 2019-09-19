@@ -3,214 +3,214 @@
   "groups": [
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db",
+      "name": "spring.datasource.druid.mysql-db",
       "type": "com.byr.config.prop.MysqlProperties"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db",
+      "name": "spring.datasource.druid.postgresql-db",
       "type": "com.byr.config.prop.PostgreSqlProperties"
     }
   ],
   "properties": [
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.connection-properties",
+      "name": "spring.datasource.druid.mysql-db.connection-properties",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.filters",
+      "name": "spring.datasource.druid.mysql-db.filters",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.initial-size",
+      "name": "spring.datasource.druid.mysql-db.initial-size",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.max-active",
+      "name": "spring.datasource.druid.mysql-db.max-active",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.max-pool-prepared-statement-per-connection-size",
+      "name": "spring.datasource.druid.mysql-db.max-pool-prepared-statement-per-connection-size",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.max-wait",
+      "name": "spring.datasource.druid.mysql-db.max-wait",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.min-evictable-idle-time-millis",
+      "name": "spring.datasource.druid.mysql-db.min-evictable-idle-time-millis",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.min-idle",
+      "name": "spring.datasource.druid.mysql-db.min-idle",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.password",
-      "type": "java.lang.String"
-    },
-    {
-      "sourceType": "com.byr.config.prop.MysqlProperties",
-      "defaultValue": false,
-      "name": "spring.datasource.druid.business-db.pool-prepared-statements",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "sourceType": "com.byr.config.prop.MysqlProperties",
-      "defaultValue": false,
-      "name": "spring.datasource.druid.business-db.test-on-borrow",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "sourceType": "com.byr.config.prop.MysqlProperties",
-      "defaultValue": false,
-      "name": "spring.datasource.druid.business-db.test-on-return",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "sourceType": "com.byr.config.prop.MysqlProperties",
-      "defaultValue": false,
-      "name": "spring.datasource.druid.business-db.test-while-idle",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.time-between-eviction-runs-millis",
-      "type": "java.lang.Integer"
-    },
-    {
-      "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.url",
+      "name": "spring.datasource.druid.mysql-db.password",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
       "defaultValue": false,
-      "name": "spring.datasource.druid.business-db.use-global-data-source-stat",
+      "name": "spring.datasource.druid.mysql-db.pool-prepared-statements",
       "type": "java.lang.Boolean"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.username",
+      "defaultValue": false,
+      "name": "spring.datasource.druid.mysql-db.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.byr.config.prop.MysqlProperties",
+      "defaultValue": false,
+      "name": "spring.datasource.druid.mysql-db.test-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.byr.config.prop.MysqlProperties",
+      "defaultValue": false,
+      "name": "spring.datasource.druid.mysql-db.test-while-idle",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.byr.config.prop.MysqlProperties",
+      "name": "spring.datasource.druid.mysql-db.time-between-eviction-runs-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.byr.config.prop.MysqlProperties",
+      "name": "spring.datasource.druid.mysql-db.url",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.validation-query",
+      "defaultValue": false,
+      "name": "spring.datasource.druid.mysql-db.use-global-data-source-stat",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.byr.config.prop.MysqlProperties",
+      "name": "spring.datasource.druid.mysql-db.username",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.byr.config.prop.MysqlProperties",
-      "name": "spring.datasource.druid.business-db.validation-query-timeout",
+      "name": "spring.datasource.druid.mysql-db.validation-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.byr.config.prop.MysqlProperties",
+      "name": "spring.datasource.druid.mysql-db.validation-query-timeout",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.connection-properties",
+      "name": "spring.datasource.druid.postgresql-db.connection-properties",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.filters",
+      "name": "spring.datasource.druid.postgresql-db.filters",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.initial-size",
+      "name": "spring.datasource.druid.postgresql-db.initial-size",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.max-active",
+      "name": "spring.datasource.druid.postgresql-db.max-active",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.max-pool-prepared-statement-per-connection-size",
+      "name": "spring.datasource.druid.postgresql-db.max-pool-prepared-statement-per-connection-size",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.max-wait",
+      "name": "spring.datasource.druid.postgresql-db.max-wait",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.min-evictable-idle-time-millis",
+      "name": "spring.datasource.druid.postgresql-db.min-evictable-idle-time-millis",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.min-idle",
+      "name": "spring.datasource.druid.postgresql-db.min-idle",
       "type": "java.lang.Integer"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.password",
-      "type": "java.lang.String"
-    },
-    {
-      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "defaultValue": false,
-      "name": "spring.datasource.druid.system-db.pool-prepared-statements",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "defaultValue": false,
-      "name": "spring.datasource.druid.system-db.test-on-borrow",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "defaultValue": false,
-      "name": "spring.datasource.druid.system-db.test-on-return",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "defaultValue": false,
-      "name": "spring.datasource.druid.system-db.test-while-idle",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.time-between-eviction-runs-millis",
-      "type": "java.lang.Integer"
-    },
-    {
-      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.url",
+      "name": "spring.datasource.druid.postgresql-db.password",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
       "defaultValue": false,
-      "name": "spring.datasource.druid.system-db.use-global-data-source-stat",
+      "name": "spring.datasource.druid.postgresql-db.pool-prepared-statements",
       "type": "java.lang.Boolean"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.username",
+      "defaultValue": false,
+      "name": "spring.datasource.druid.postgresql-db.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
+      "defaultValue": false,
+      "name": "spring.datasource.druid.postgresql-db.test-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
+      "defaultValue": false,
+      "name": "spring.datasource.druid.postgresql-db.test-while-idle",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
+      "name": "spring.datasource.druid.postgresql-db.time-between-eviction-runs-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
+      "name": "spring.datasource.druid.postgresql-db.url",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.validation-query",
+      "defaultValue": false,
+      "name": "spring.datasource.druid.postgresql-db.use-global-data-source-stat",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
+      "name": "spring.datasource.druid.postgresql-db.username",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.byr.config.prop.PostgreSqlProperties",
-      "name": "spring.datasource.druid.system-db.validation-query-timeout",
+      "name": "spring.datasource.druid.postgresql-db.validation-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.byr.config.prop.PostgreSqlProperties",
+      "name": "spring.datasource.druid.postgresql-db.validation-query-timeout",
       "type": "java.lang.Integer"
     }
   ]

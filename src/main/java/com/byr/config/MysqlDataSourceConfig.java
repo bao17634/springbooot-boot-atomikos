@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
-import com.byr.config.prop.PostgreSqlProperties;
+import com.byr.config.prop.MysqlProperties;
 import com.byr.utils.PojoUtil;
 
 @Configuration
@@ -21,13 +21,13 @@ public class MysqlDataSourceConfig {
 	static final String PACKAGE = "com.byr.myselfdemo.mapper.mysql_mapper";
 
 	@Autowired
-	private PostgreSqlProperties postgreSqlProperties;
+	private MysqlProperties mysqlProperties;
 
 	@Bean(name = "systemDataSource")
 	@Primary
 	public DataSource systemDataSource() {
 		AtomikosDataSourceBean ds = new AtomikosDataSourceBean();
-		ds.setXaProperties(PojoUtil.obj2Properties(postgreSqlProperties));
+		ds.setXaProperties(PojoUtil.obj2Properties(mysqlProperties));
 		ds.setXaDataSourceClassName("com.alibaba.druid.pool.xa.DruidXADataSource");
 		ds.setUniqueResourceName("systemDataSource");
 		ds.setPoolSize(5);
